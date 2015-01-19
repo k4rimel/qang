@@ -1,0 +1,307 @@
+[{
+    "title": "Quiz A",
+    "description": "Quiz A bla bla bla",
+    "id": "1",
+    "difficulty": "p1",
+    "questions": [{
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "What's your name ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Karim"
+        }, {
+            "id": "2",
+            "label": "Jean-Jacques"
+        }, {
+            "id": "3",
+            "label": "Firmain"
+        }, {
+            "id": "4",
+            "label": "Martin"
+        }],
+        "correctAnswer": "1"
+    }, {
+        "label": "How old are you ?",
+        "propositions": [{
+            "id": "1",
+            "label": "18"
+        }, {
+            "id": "2",
+            "label": "23"
+        }, {
+            "id": "3",
+            "label": "45"
+        }, {
+            "id": "4",
+            "label": "1000"
+        }],
+        "correctAnswer": "2"
+    }]
+}, {
+    "title": "Quiz B",
+    "description": "Quiz B bla bla bla",
+    "id": "2",
+    "difficulty": "p2",
+    "questions": [{
+        "label": "Where do you live ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Paris"
+        }, {
+            "id": "2",
+            "label": "Moscow"
+        }, {
+            "id": "3",
+            "label": "Montpellier"
+        }],
+        "correctAnswer": "3"
+    }, {
+        "label": "What is your job ?",
+        "propositions": [{
+            "id": "1",
+            "label": "Doctor"
+        }, {
+            "id": "2",
+            "label": "Developper"
+        }, {
+            "id": "3",
+            "label": "Carpenter"
+        }],
+        "correctAnswer": "2"
+    }]
+}, {
+    "title": "Quiz C",
+    "description": "Quiz C bla bla bla",
+    "id": "3",
+    "difficulty": "p3",
+    "questions": [{
+        "label": "How tall are you ?",
+        "propositions": [{
+            "id": "1",
+            "label": "1m50"
+        }, {
+            "id": "2",
+            "label": "1m65"
+        }, {
+            "id": "3",
+            "label": "2m05"
+        }, {
+            "id": "4",
+            "label": "1m70"
+        }],
+        "correctAnswer": "4"
+    }, {
+        "label": "What's your favorite color",
+        "propositions": [{
+            "id": "1",
+            "label": "Black"
+        }, {
+            "id": "2",
+            "label": "Red"
+        }, {
+            "id": "3",
+            "label": "Purple"
+        }, {
+            "id": "4",
+            "label": "Blue"
+        }, {
+            "id": "5",
+            "label": "Green"
+        }],
+        "correctAnswer": "5"
+    }, {
+        "label": "What's your birth year ?",
+        "propositions": [{
+            "id": "1",
+            "label": "2014"
+        }, {
+            "id": "2",
+            "label": "50 B.C."
+        }, {
+            "id": "3",
+            "label": "1991"
+        }, {
+            "id": "4",
+            "label": "1975"
+        }],
+        "correctAnswer": "3"
+    }, {
+        "label": "What color are your eyes",
+        "propositions": [{
+            "id": "1",
+            "label": "black"
+        }, {
+            "id": "2",
+            "label": "white"
+        }, {
+            "id": "3",
+            "label": "pink"
+        }, {
+            "id": "4",
+            "label": "orange"
+        }, {
+            "id": "5",
+            "label": "brown"
+        }],
+        "correctAnswer": "5"
+    }]
+}]
