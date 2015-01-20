@@ -2,20 +2,10 @@
 	font-family: 'robotoBold';
 	src: url('fonts/Roboto-Bold.ttf');
 }
- 
-@font-face {
-	font-family: 'roboto';
-	src: url('fonts/Roboto-Light.ttf');
-}
- 
+
 @font-face {
 	font-family: 'robotoMedium';
 	src: url('fonts/Roboto-Medium.ttf');
-}
-
-@font-face {
-	font-family: 'robotoLight';
-	src: url('fonts/Roboto-Light.ttf');
 }
 
 @font-face {
