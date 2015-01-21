@@ -5,13 +5,12 @@
 		.module('app')
 		.controller('ListController', ListController);
 
-	function ListController(list) {
+	function ListController(quiz) {
 		var quizList = this;
 		quizList.quizzes = [];
-		console.log(list.getQuizzes());
-		list.getQuizzes().success(function(data) {
-			quizList.quizzes = data;
-		});
+		quiz.all().then(function(data) {
+		    quizList.quizzes = data;
+	  	});
 	}
 
 })();

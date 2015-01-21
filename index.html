@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="src/app.js"></script>
+    <script type="text/javascript" src="src/factories/quizFactory.js"></script>
     <script type="text/javascript" src="src/controllers/listController.js"></script>
-    <script type="text/javascript" src="src/factories/listFactory.js"></script>
+    <script type="text/javascript" src="src/controllers/quizplayerController.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,11 +19,13 @@
             </h1>
         </header>
         <div class="list-group">
-            <div class="list-group-item" ng-repeat="quiz in ListCtrl.quizzes">
-                <list-item></list-item>
-                <h3>
-                    {{quiz.title}} <em class="pull-right">{{quiz.questions.length}} Questions</em>
-                </h3>
+            <div class="list-group-item" ng-repeat="quiz in ListCtrl.quizzes"
+            ng-controller="QuizplayerController as playerCtrl">
+                <div class="quizListItem" ng-click="playerCtrl.loadQuiz(quiz.id)">
+                    <h3>
+                        {{quiz.title}}<em class="pull-center"></em><em class="pull-right">{{quiz.questions.length}} Questions</em>
+                    </h3>
+                </div>
             </div>
         </div>
     </body>
