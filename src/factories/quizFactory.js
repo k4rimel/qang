@@ -13,11 +13,9 @@
 
 		function makeRequest(url) {
       		var deferred = $q.defer();
-
       		$http.get(url).then(function(resp) {
   		  		deferred.resolve(resp.data);
       		});
-
       		return deferred.promise;
     	};
 
