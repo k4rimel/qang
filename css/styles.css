@@ -18,3 +18,9 @@ body {
 .quizListItem {
 	cursor: pointer;
 }
+.navbar {
+	margin-bottom: 0;
+}
+.navbar h1 {
+	color:#fff;
+}
