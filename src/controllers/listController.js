@@ -5,11 +5,11 @@
 		.module('app')
 		.controller('ListController', ListController);
 
-	function ListController(quiz) {
+	function ListController(Quiz) {
 		var quizList = this;
 		quizList.quizzes = [];
-		quiz.all().then(function(data) {
-		    quizList.quizzes = data;
+		Quiz.all().then(function(quizzes) {
+		    quizList.quizzes = quizzes;
 	  	});
 	}
 

@@ -3,16 +3,19 @@
 
 	angular
 		.module('app')
-		.controller('QuizplayerController', QuizplayerController);
+		.controller('quizPlayerController', ['$routeParams', 'Quiz', QuizPlayerController]);
 
-	function QuizplayerController(quiz) {
+	function QuizPlayerController($routeParams, Quiz) {
 		var player      = this;
 			player.quiz = null;
 
 		player.loadQuiz = function (id) {
-			quiz.get(id).then(function(data) {
+			console.log($routeParams);
+			Quiz.get($routeParams.quizId).then(function(quiz) {
 			    player.quiz = data;
+
 		  	});
+
 		}
 
 	}

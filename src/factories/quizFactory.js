@@ -3,7 +3,7 @@
 
 	angular
 		.module('app')
-		.factory('quiz', quizFactory);
+		.factory('Quiz', quizFactory);
 
 	function quizFactory($http, $q) {
 		var factory = {};
