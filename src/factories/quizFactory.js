@@ -21,13 +21,13 @@
 
 		factory.get = function(id) {
 			if(!factory.quiz.hasOwnProperty(id)) {
-            	factory.quiz[id] = makeRequest('data/quizzes/quiz_'+id+'.json');
+            	factory.quiz[id] = makeRequest('/data/quizzes/quiz_'+id+'.json');
 			}
 			return factory.quiz[id];
 		};
 		factory.all = function() {
 			if(!factory.quizzes.length) {
-            	factory.quizzes = makeRequest('data/quizzes.json');
+            	factory.quizzes = makeRequest('/data/quizzes.json');
 			}
 			return factory.quizzes;
 		};

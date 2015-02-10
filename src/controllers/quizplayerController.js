@@ -7,16 +7,13 @@
 
 	function QuizPlayerController($routeParams, Quiz) {
 		var player      = this;
-			player.quiz = null;
-
-		player.loadQuiz = function (id) {
-			console.log($routeParams);
+		player.loadQuiz = function () {
 			Quiz.get($routeParams.quizId).then(function(quiz) {
-			    player.quiz = data;
-
+				console.log(quiz.Quiz.title);
+			    player.quiz = quiz;
 		  	});
-
 		}
+		player.quiz = player.loadQuiz();
 
 	}
 
