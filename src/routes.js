@@ -14,6 +14,10 @@
 						templateUrl: '/src/views/partials/player/player-start-screen.html',
 						controller: 'quizPlayerController'
 					})
+					.when('/player/:quizId/:questionId', {
+						templateUrl: '/src/views/partials/player/player-start-screen.html',
+						controller: 'quizPlayerController'
+					})
 					.otherwise({
 						redirectTo: '/'
 					});
