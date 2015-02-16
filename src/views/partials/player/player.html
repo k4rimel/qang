@@ -1,3 +1,6 @@
-<div class="playerContainer">
-
+<div class="playerContainer" ng-controller="quizPlayerController as PlayerCtrl">
+	<h1 class="text-center">
+   		{{PlayerCtrl.quiz.Quiz.title}}
+	</h1>
+	<question-block/>
 </div>

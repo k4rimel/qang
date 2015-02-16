@@ -2,6 +2,10 @@
 	font-family: 'robotoBold';
 	src: url('fonts/Roboto-Bold.ttf');
 }
+@font-face {
+	font-family: 'roboto';
+	src: url('fonts/Roboto-Regular.ttf');
+}
 
 @font-face {
 	font-family: 'robotoMedium';
@@ -12,7 +16,7 @@
 	font-family: 'robotoThin';
 	src: url('fonts/Roboto-Thin.ttf');
 }
-body {
+body, h1 {
 	font-family: 'roboto';
 }
 .quizListItem {
